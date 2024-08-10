@@ -3,7 +3,7 @@ import React from 'react'
 
 const Cofeebannertwo = () => {
   return (
-    <div className='bg-gray-50 py-16'>
+    <div className=' py-16'>
         <div className="container">
             <div className="grid  md:grid-cols-2 gap-20 items-center">
                  <div className="order-1 md:order-2 md:flex InstantCoffee_col relative mx-auto ">

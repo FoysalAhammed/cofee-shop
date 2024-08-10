@@ -9,7 +9,7 @@ import Footer from "./_components/Footer";
 
 export default function Home() {
   return (
-      <div>
+      <div className="bg-gray-100">
         <Header/>
         <Banner/>
         <Explore/>

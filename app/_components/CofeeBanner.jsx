@@ -3,7 +3,7 @@ import React from 'react'
 
 const CofeeBanner = () => {
   return (
-    <div className="bg-gray-50 md:py-10 md:my-10">
+    <div className=" md:py-10 md:my-10">
         <div className="container">
             <div className="grid md:grid-cols-2 gap-8 md:gap-20 items-center">
                 <div className="">
