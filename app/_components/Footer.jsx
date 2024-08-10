@@ -1,0 +1,31 @@
+import Image from 'next/image'
+import React from 'react'
+
+const Footer = () => {
+  return (
+    <div className=''>
+       <div className="max-w-screen-xl py-10 px-4 sm:px-6 text-gray-800 sm:flex justify-between mx-auto">
+        <div className="p-5 sm:w-8/12 aos-init aos-animate">
+        <Image src="/logo.png" height={120} width={80} />
+        <div className="md:flex grid gap-4 md:gap-8 pt-8">
+            <a href="" className="text-lg font-medium leading-6 text-gray-900">Cafe Menu</a>
+            <a href="" className="text-lg font-medium leading-6 text-gray-900">About Us</a>
+            <a href="" className="text-lg font-medium leading-6 text-gray-900">Find Us</a>
+            <a href="" className="text-lg font-medium leading-6 text-gray-900">Alowisus Catering</a>
+        </div>
+        </div>
+        <div className="p-5 sm:w-4/12 aos-init aos-animate">
+          <h3 className="font-medium text-lg  text-gray-900 mb-4">Subscribe Our Newletter</h3>
+          <form action="" className='mt-4'>
+            <input type="email" placeholder='username@email.com' className="border rounded w-full px-4 py-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
+          </form>
+        </div>
+       </div>
+       <div className="flex py-5 md:px-0 px-3 m-auto text-gray-800 text-sm flex-col items-center border-t max-w-screen-xl">
+          <p>© Copyright 2024 Foysal Ahammed. All Rights Reserved.</p>
+       </div>
+    </div>
+  )
+}
+
+export default Footer
